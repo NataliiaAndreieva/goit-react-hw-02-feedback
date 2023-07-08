@@ -15,7 +15,6 @@ export class App extends Component {
     const option = event.target.name;
     this.setState((prevState) => ({
         [option]: prevState[option] + 1,
-      
     }));
   };
 
@@ -35,7 +34,6 @@ export class App extends Component {
     const countTotalFeedback = this.countTotalFeedback();
     const countPositiveFeedbackPercentage =
       this.countPositiveFeedbackPercentage;
-
     return (
       <div>
         <Section title="Please leave feedback">
@@ -65,3 +63,7 @@ export class App extends Component {
     );
   }
 }
+
+
+
+xjve djyj yt ghfw.'/////' pageYOffset,hblkj.... nht,f rblfnb yfdxfyyz s wtq negbq dcrjl
