@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import styled from '@emotion/styled';
+import FeedbackOptions from 'components/feedbackOptions';
 
 export class App extends Component {
   state = {
@@ -36,24 +36,11 @@ export class App extends Component {
     return (
       <div>
         <h2>Please leave feedback</h2>
-
-        <ul>
-          <li>
-            <button type="button" name="good" onClick={this.onLeaveFeedback}>
-              Good
-            </button>
-          </li>
-          <li>
-            <button type="button" name="neutral" onClick={this.onLeaveFeedback}>
-              Neutral
-            </button>
-          </li>
-          <li>
-            <button type="button" name="bad" onClick={this.onLeaveFeedback}>
-              Bad
-            </button>
-          </li>
-        </ul>
+        <FeedbackOptions
+          onOptions={Object.keys(this.state)}
+          onLeaveFeedback={this.onLeaveFeedback}
+        />
+        
         <h2>Statistics</h2>
         <p>Good: {good}</p>
         <p>Neutral: {neutral}</p>
