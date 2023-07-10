@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FeedbackOptions from './feedbackOptions';
+import FeedbackOptions from './FeedbackOptions';
 import Section from './Section';
 import Notification from './Notification';
 import Statistics from './Statistics';
@@ -65,5 +65,3 @@ export class App extends Component {
 }
 
 
-
-xjve djyj yt ghfw.'/////' pageYOffset,hblkj.... nht,f rblfnb yfdxfyyz s wtq negbq dcrjl
