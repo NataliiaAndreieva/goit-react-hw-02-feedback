@@ -14,7 +14,7 @@ export class App extends Component {
   onLeaveFeedback = (event) => {
     const option = event.target.name;
     this.setState((prevState) => ({
-        [option]: prevState[option] + 1,
+      [option]: prevState[option] + 1,
     }));
   };
 
@@ -28,15 +28,15 @@ export class App extends Component {
     const percentage = Math.round((good / this.countTotalFeedback()) * 100);
     return percentage;
   };
-
-  render() {
+}
+  // render() {
     //   const { good, neutral, bad } = this.state;
     //   const countTotalFeedback = this.countTotalFeedback();
     //   const countPositiveFeedbackPercentage =
     //     this.countPositiveFeedbackPercentage;
     //   return (
   
-    <div>
+    // <div>
       {/* <Section title="Please leave feedback">
           <FeedbackOptions
             onOptions={Object.keys(this.state)}
@@ -60,9 +60,7 @@ export class App extends Component {
           ) 
           }
         </Section> */}
-    </div>
-//     );
+    // </div>
+    //     );
+    // }
   // }
-}
-
-
