@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import FeedbackOptions from './FeedbackOptions';
-import Section from './Section';
-import Notification from './Notification';
+// import Section from './Section';
+// import Notification from './Notification';
 // import Statistics from './Statistics';
 
 export class App extends Component {
@@ -30,20 +30,21 @@ export class App extends Component {
   };
 
   render() {
-    const { good, neutral, bad } = this.state;
-    const countTotalFeedback = this.countTotalFeedback();
-    const countPositiveFeedbackPercentage =
-      this.countPositiveFeedbackPercentage;
-    return (
-      <div>
-        {/* <Section title="Please leave feedback">
+    //   const { good, neutral, bad } = this.state;
+    //   const countTotalFeedback = this.countTotalFeedback();
+    //   const countPositiveFeedbackPercentage =
+    //     this.countPositiveFeedbackPercentage;
+    //   return (
+  
+    <div>
+      {/* <Section title="Please leave feedback">
           <FeedbackOptions
             onOptions={Object.keys(this.state)}
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section> */}
 
-        {/* <Section title="Statistics">
+      {/* <Section title="Statistics">
           {countTotalFeedback ? 
              (
             <Statistics
@@ -59,9 +60,9 @@ export class App extends Component {
           ) 
           }
         </Section> */}
-      </div>
-    );
-  }
+    </div>
+//     );
+  // }
 }
 
 
